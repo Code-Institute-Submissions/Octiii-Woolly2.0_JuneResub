@@ -3,3 +3,57 @@
     margin:0;
   }
   
+  /*Navigation Bar*/
+
+nav {
+    position: fixed;
+    width:100%;
+    z-index: 1;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color:#001c70;
+    border: 4px solid white;
+    max-width: 100%;
+    list-style: none;
+    padding:33px;
+  }
+  
+  nav li {
+    display: inline-block;
+    line-height:40px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:white;
+    padding:40px;
+  }
+  
+  .navbutton:hover {
+    background-color:#fff3e3;
+    color:#001c70;
+    border: 4px solid white;
+    padding: 36px;
+   }
+  
+  .WollyLogo {
+    border:solid 4px;
+    border-color:#8ce0c4;
+    border-radius:50%;
+    height: 70px;
+    width: 70px;
+    z-index: 1;
+  }
+  
+  .logolink {
+    position: absolute;
+    top:21px;
+    left: 1rem;
+    padding:0;
+   }
+  
+  
