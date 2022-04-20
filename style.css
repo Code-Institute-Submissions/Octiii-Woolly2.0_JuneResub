@@ -207,4 +207,40 @@ footer div {
   .burgerlink {
     padding:0;
   }
+
+  /* Media Querries*/
+
+@media all and (max-width: 720px) {
+    .navigation_bar {
+      display:flex;
+      flex-direction: column;
+      z-index:1;
+      display: none;
+    }
+    
+    .icon {
+      padding:0;
+    }
   
+    nav {
+      z-index:1;
+    }
+    
+    nav ul {
+      flex-direction: column;
+      z-index:1
+    }
+    
+    .nav-toggle {
+      display: block;
+      position:absolute;
+      top: 1.5rem;
+      right: 1rem;
+      z-index: 1;
+    } 
+  
+    .companymoto {
+      font-size:2vw;
+      justify-content: center;
+    }
+}
