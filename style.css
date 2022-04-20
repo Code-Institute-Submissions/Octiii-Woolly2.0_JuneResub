@@ -55,6 +55,7 @@ nav {
     left: 1rem;
     padding:0;
    }
+
 /*Main website body*/
 
 body {
@@ -117,4 +118,25 @@ body {
     max-height: 100%;
   }
   
-  
+  /*Product Page Images*/
+
+.row {
+ display: flex;
+ align-items:center;
+ justify-content:center;
+}
+
+.cell {
+  width: 25%;
+  padding:8px;
+  border:0;
+}
+
+.cell:hover {
+  padding: 4px;
+  border: solid white 4px;
+}
+
+.productimg {
+  width:100%;
+}
