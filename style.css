@@ -189,3 +189,22 @@ footer div {
     height:auto;
   }
   
+/* Hamburger Menu*/
+
+.burger {
+    height: 70px; 
+    width: 70px;
+  }
+  
+  .nav-toggle {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    z-index: 1;
+  }
+  
+  .burgerlink {
+    padding:0;
+  }
+  
