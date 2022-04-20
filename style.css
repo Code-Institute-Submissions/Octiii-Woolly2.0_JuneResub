@@ -162,4 +162,30 @@ footer div {
     height:44px;
     border-radius:25%;
   }
+
+/*Our Vision page items*/
+
+.team_image {
+    max-width: 50%;
+    padding:10px;
+    border-radius: 25%;
+  }
+  
+  .team_container {
+   display: flex;
+   align-items:center;
+   justify-content:center;
+  }
+  
+  .text_block {
+    max-width: 50%;
+    border: solid 4px;
+    border-color:white;
+    background-color:#008b8b;
+  }
+  
+  img {
+    max-width: 100%;
+    height:auto;
+  }
   
