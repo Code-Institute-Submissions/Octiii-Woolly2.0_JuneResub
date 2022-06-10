@@ -1,0 +1,246 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+/*Navigation Bar*/
+
+nav {
+  position: fixed;
+  width:100%;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  background-color:#001c70;
+  border: 4px solid white;
+  max-width: 100%;
+  list-style: none;
+  padding:33px;
+}
+
+nav li {
+  display: inline-block;
+  line-height:40px;
+}
+
+nav a {
+  text-decoration: none;
+  color:white;
+  padding:40px;
+}
+
+.navbutton:hover {
+  background-color:#fff3e3;
+  color:#001c70;
+  border: 4px solid white;
+  padding: 36px;
+ }
+
+.WollyLogo {
+  border:solid 4px;
+  border-color:#8ce0c4;
+  border-radius:50%;
+  height: 70px;
+  width: 70px;
+  z-index: 1;
+}
+
+.logolink {
+  position: absolute;
+  top:21px;
+  left: 1rem;
+  padding:0;
+ }
+
+
+/*Main website body*/
+
+body {
+  margin:0;
+}
+
+.spacer {
+padding:54px;
+}
+.spacer1 {
+padding:54px;
+}
+
+.container {
+  position: relative;
+  text-align:center;
+  color:#001c70;
+  border: 4px solid white;
+}
+
+.container-home {
+  position: relative;
+  text-align:center;
+  color:#001c70;
+  border: 4px solid white;
+  display: flex;
+  flex-direction: column;
+}
+
+.backgroundimage {
+  -webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 50%, black 40%, transparent 50%);
+}
+
+.companymoto {
+  display:flex; 
+  position: absolute;
+  background-color: #181818;
+  opacity: 0.9;
+  height:500px;
+  width:550px;
+  border-radius: 45%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.companymoto h1 {
+  display: table-cell;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.companymoto h2 {
+  position: relative;
+  width: 400px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*Footer Part*/
+
+footer div {
+  display:flex;
+  justify-content:center; 
+  align-items:center;
+  color:white;
+  background-color:#001c70;
+  border: 4px solid white;
+}
+
+.instagram {
+  width:50px;
+  height:50px;
+}
+
+.fbook {
+  width:44px;
+  height:44px;
+  border-radius:25%;
+}
+
+/*Product Page Images*/
+
+.row {
+ display: flex;
+ align-items:center;
+ justify-content:center;
+}
+
+.cell {
+  width: 25%;
+  padding:8px;
+  border:0;
+}
+
+.cell:hover {
+  padding: 4px;
+  border: solid white 4px;
+}
+
+.productimg {
+  width:100%;
+}
+
+/*Our Vision page items*/
+
+.team_image {
+  max-width: 50%;
+  padding:10px;
+  border-radius: 25%;
+}
+
+.team_container {
+ display: flex;
+ align-items:center;
+ justify-content:center;
+}
+
+.text_block {
+  max-width: 50%;
+  border: solid 4px;
+  border-color:white;
+  background-color:#008b8b;
+}
+
+img {
+  max-width: 100%;
+  height:auto;
+}
+
+/* Hamburger Menu*/
+
+.burger {
+  height: 70px; 
+  width: 70px;
+}
+
+.nav-toggle {
+  display: none;
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  z-index: 1;
+}
+
+.burgerlink {
+  padding:0;
+}
+
+/* Media Querries*/
+
+@media all and (max-width: 720px) {
+  .navigation_bar {
+    display:flex;
+    flex-direction: column;
+    z-index:1;
+    display: none;
+  }
+  
+  .icon {
+    padding:0;
+  }
+
+  nav {
+    z-index:1;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    z-index:1
+  }
+  
+  .nav-toggle {
+    display: block;
+    position:absolute;
+    top: 1.5rem;
+    right: 1rem;
+    z-index: 1;
+  } 
+
+  .companymoto {
+    font-size:2vw;
+    justify-content: center;
+  }

@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Woolly</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="Assets/CSS/style.css" rel="stylesheet" type="text/css" />
   </head>
+  
   <body>
+    <!--The navigation bar.-->
     <nav>
       <!--Hamburger menu to toggle the nav bar on lower screan sizes.-->
       <div class="nav-toggle" id="navToggle" >
@@ -15,9 +17,9 @@
         </a>
       </div>
       <!--Logo, also cliking it brings the user back to the home page.-->
-      <a class="logolink" href="index.html">
-        <img src="Images/WollyLogo.PNG" class="WollyLogo" alt="Wooly Logo">
-       </a>
+        <a class="logolink" href="index.html">
+         <img src="Images/wollylogo.PNG" class="WollyLogo" alt="Wooly Logo">
+        </a>
       <!--The buttons to navigate around the website.-->
       <ul id="myLinks" class="navigation_bar">
         <li><h1><a class="navbutton" href="index.html">Home</a></h1></li>
@@ -25,31 +27,29 @@
         <li><h1><a class="navbutton" href="our_vision.html">Our Vision</a></h1></li>
       </ul>
     </nav>
-
-        <!--Prevents the nav bar cutting the top of the page.-->
-        <div class="spacer"></div>
-
-         <!--Container for the main page, to make it easier to style. -->
+    <!--Prevents the nav bar cutting the top of the page.-->
+    <div class="spacer"></div>
+    
+    <!--Container for the main page, to make it easier to style. -->
     <div class="container-home">
-      <img class="backgroundimage" alt="Fleated soap." src="Images/feltedsoap.webp">
-      <!--Company introduction container.-->
-      <div class="companymoto">
-        <h1>Hello, Welcome to Wolly!</h1>
-        <h2>At Woolly we are deternmined to deliver you the best felted soap!</h2>
-        <h1>What is felted soap?</h1>
-        <h2>Felted soap is simpley hand made soap covered in wool, this helps create a better lather and preserv the soap for longer!</h2>
+    <img class="backgroundimage" alt="Fleated soap." src="Images/feltedsoap.webp">
+    <!--Company introduction container.-->
+    <div class="companymoto">
+      <h1>Hello, Welcome to Wolly!</h1>
+      <h2>At Woolly we are deternmined to deliver you the best felted soap!</h2>
+      <h1>What is felted soap?</h1>
+      <h2>Felted soap is simpley hand made soap covered in wool, this helps create a better lather and preserv the soap for longer!</h2>
+    </div>
+    </div>
+    
+    <footer>
+      <!--Social media links.-->
+      <div>
+        <h5>Follow Us on</h5> 
+        <a href="https://www.instagram.com/yourwoolly/?hl=en" target="_blank"><img alt="Instagram." class="instagram" src="Images/inst.png"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img alt="Facebook." class="fbook" src="Images/fbl.png"></a>
       </div>
-      </div>
-
-      <footer>
-        <!--Social media links.-->
-        <div>
-          <h5>Follow Us on</h5> 
-          <a href="https://www.instagram.com/yourwoolly/?hl=en" target="_blank"><img alt="Instagram." class="instagram" src="Images/inst.png"></a>
-          <a href="https://www.facebook.com/" target="_blank"><img alt="Facebook." class="fbook" src="Images/fbl.png"></a>
-        </div>
-      </footer> 
-      <script src="script.js"></script>
-
+    </footer> 
+    <script src="Assets/JS/script.js"></script>
   </body>
 </html>
